@@ -1,0 +1,120 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// ì˙ñ{åÍ resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETUPDLG DIALOG DISCARDABLE  0, 0, 107, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ALIMEFIX"
+FONT 9, "ÇlÇr ÇoÉSÉVÉbÉN"
+BEGIN
+    LTEXT           "ïœä∑åÛï‚êF :",IDC_STATIC,11,10,39,8
+    CONTROL         "",IDC_BUTTON_TARGET_CONVERTED,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,59,7,36,14
+    LTEXT           "ñ¢ïœä∑ï∂êﬂêF :",IDC_STATIC,11,29,46,8
+    CONTROL         "",IDC_BUTTON_TARGET_NOTCONVERTED,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,59,26,36,14
+    PUSHBUTTON      "OK",IDOK,38,47,29,14
+END
+
+IDD_DIALOG_ABOUT DIALOG DISCARDABLE  0, 0, 195, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ALIMEFixÇÃÉoÅ[ÉWÉáÉìèÓïÒ"
+FONT 9, "ÇlÇr ÇoÉSÉVÉbÉN"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,151,7,37,14
+    LTEXT           "ALIMEFix Version 0.1",IDC_STATIC,7,7,77,8
+    LTEXT           "Copyright (C) 2000 haseta@comco.co.jp",IDC_STATIC,17,19,
+                    133,8
+    LTEXT           "http://hp.vector.co.jp/authors/VA012911/",IDC_STATIC,18,
+                    31,123,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SETUPDLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 105
+    END
+
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // ì˙ñ{åÍ resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,26 @@
+LIBRARY 		ALIMEFix		 ; Application's module name
+DESCRIPTION 	'AL-Mail32 Plug Library'
+
+EXPORTS
+	APCGetPlugName	@1
+	APCVersionInfo	@2
+	APCStartUp		@3
+	APCCleanUp		@4
+	APCSetup		@5
+;	APCRecFilter	@6
+
+;	APCFolderCreate	@100
+;	APCFolderClose	@101
+;	APCFolderInitMenu @102
+;	APCFolderLoad	@103
+
+;	APCViewCreate	@200
+;	APCViewClose	@201
+;	APCViewInitMenu	@202
+;	APCViewLoadMail	@203
+
+	APCSendCreate	@300
+	APCSendClose	@301
+;	APCSendInitMenu	@302
+;	APCSendPost		@303
+
